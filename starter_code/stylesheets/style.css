@@ -158,4 +158,87 @@ footer links grey: #454245
         font-weight: 900;
         color: #540B51;
     }
+
+    .info {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 100;
+        color:  #45424597;
+        padding: 0 50px 50px;
+    }
+
+    .digitalHQ{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        background-color: #540B51;
+    }
+
+    .digitalHQ h3 {
+        color: white;
+        font-size: 32px;
+        padding-bottom: 30px;
+    }
+
+    .digitalHQ button{
+        border: none;
+        text-transform: uppercase;
+        height: 80px;
+        margin: 10px;
+        font-size: 20px;
+        padding: 8px;
+        font-weight: bold;
+        width: 90%;
+        border-radius: 5px;
+        color: #540B51;
+    }
+
+    .digitalHQ button:hover{
+        background-color: #540B51;
+        transition: 0.3s;
+        border: solid white ;
+        color: white;
+    }
+
+    hr{
+        margin: 50px;
+    }
+
+    footer ul{
+        padding: 20px;
+    }
+
+    footer li{
+        list-style: none;
+        margin: 20px;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    footer li:last-child{
+        color: #2e71a6;
+    }
+    
+      footer li img {
+        padding-right: 10px;
+        object-fit:cover ;
+    }
+
+    .socialMedia{
+        display: flex;
+        justify-content: space-between;
+        margin: 50px;
+    }
+
+    .socialMedia i{
+        font-size: 30px;
+    }
+
+    .copy {
+        text-align: center;
+        margin: 30px;
+        color: #454245;
+    }
 }
