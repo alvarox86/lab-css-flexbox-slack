@@ -8,3 +8,154 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+@media(width < 768px){
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav{
+        background-color: #540B51;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .imgSlack{
+        width: 180px;
+    }
+
+    header{
+        text-align: center;
+        background-color: #540B51;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 70px;
+        font-weight: 300;
+        color: white;
+        padding: 40px;
+        margin: 0;
+    }
+
+    header p {
+        color: white;
+        font-size: 24px;
+    }
+
+    header span {
+        font-weight: bold;
+        color: #ECB12F;
+    }
+
+    header button {
+        text-transform: uppercase;
+        height: 70px;
+        border-radius: 3px;
+        margin: 10px;
+        font-size: 20px;
+        padding: 8px;
+        border: none;
+    }
+
+    .googleIcon {
+        height: 40px;
+        background-color: white;
+        padding: 10px;
+    }
+
+    .googleSignup {
+        background-color: #4285F4;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .googleSignup span {
+        color: white;
+        margin-left: 140px;
+    }
+
+    .emailSingup{
+        color: #540B51;
+        font-weight: bold;
+    }
+    
+    header .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 50px;
+    }
+
+    .heroImage{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        object-position: -30% 25%;
+    }
+
+    .companies {
+        background-color: #F3EAE2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    
+    .companies p {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    
+    .companies div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .companies img {
+        height: 60px;
+        padding: 5px;
+    }
+
+    .teams {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 150px ;
+        padding-left: 150px ;
+        text-align: center;
+    }
+    
+    .teams h3 {
+        color: #540B51;
+        font-size: 32px;
+    }
+    
+    .teams p {
+        font-size: 22px;
+        margin-bottom: 40px;
+
+    }
+    
+    .teams li {
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    .teams span {
+        font-size: 80px;
+        font-weight: 900;
+        color: #540B51;
+    }
+}
